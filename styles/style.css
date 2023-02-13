@@ -11,7 +11,7 @@ padding: 0;
 
 }
 header{
-background-color: #3455dbff;
+background-color: #38bbf8;
 text-transform: uppercase;
 
 
@@ -26,12 +26,12 @@ nav ul{
 
 }
 nav ul li{
-background-color: #3455dbff;
+background-color: #38bbf8;
 color: #000;
-border: 1px solid #3455dbff;
+border: 1px solid #38bbf8;
 }
 nav ul li a{
-    background-color: #3455dbff;
+    background-color: #38bbf8;
     color: #000;
     text-transform: uppercase;
     font-weight: bold;
@@ -39,17 +39,17 @@ nav ul li a{
 
 }
 nav ul li a:hover{
-    background-color: #3455dbff;
+    background-color: #38bbf8;
     font-weight: bold;
     color: #fff;
 }
 .wrapper{
-    background-color: #3455dbff;
+    background-color: #38bbf8;
 }
 
 
 footer{
-      background-color: #3455dbff;
+      background-color: #38bbf8;
       font-weight: bold;
 }
 footer address p{
