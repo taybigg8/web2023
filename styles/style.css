@@ -90,8 +90,8 @@ figure {
 }
 
 figure img {
-    width: 90%;
-    height: 350px;
+    width: 100%;
+    margin: 5px;
     border-radius: 50px;
 }
 
