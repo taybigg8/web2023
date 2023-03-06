@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        caption {
+            font-size: 1.25rem;
+            font-weight: bold;
+            padding: 5px;
+            background-color: black;
+            color: white;
+            border-radius: 25px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;}
+
+        thead,
+        tfoot {
+            background-color: white;
+            color: rgb(0, 0, 0);
+            font-weight: bold;
+        }
+
+        th,
+        td {
+            padding: 5px 10px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .rowhover:hover {
+            background-color: rgb(0, 183, 255);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Lord of the Rings Books or Movies</caption>
+        <thead>
+            <tr>
+                <th colspan="5">Attitude</th>
+            </tr>
+            <tr>
+                <th>LoTR</th>
+                <th>For</th>
+                <th>Undecided</th>
+                <th>Against</th>
+                <th>Row Marginal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="rowhover">
+                <td>Movies</td>
+                <td class="center">10</td>
+                <td class="center">2</td>
+                <td class="center">3</td>
+                <td class="center">15</td>
+            </tr>
+            <tr class="rowhover">
+                <td>Books</td>
+                <td class="center">3</td>
+                <td class="center">3</td>
+                <td class="center">9</td>
+                <td class="center">15</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Column Marginal</td>
+                <td class="center">13</td>
+                <td class="center">5</td>
+                <td class="center">12</td>
+                <td class="center">30</td>
+            </tr>
+        </tfoot>
+    </table>
