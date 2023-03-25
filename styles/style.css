@@ -22,13 +22,20 @@ header {
 
     text-transform: uppercase;
     justify-items: end;
+    text-align: center
 
 
 }
+
 
 h1 {
     margin: 0;
-}
+    text-align: center
+    
+  }
+  h2{
+    text-align: center;
+  }
 
 nav {
 
@@ -94,12 +101,30 @@ figure img {
     height: 100%;
     border-radius: 50px;
 }
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
 
 .navdiv {
     width: 100%;
     display: flex;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .column{
+    border: 5px solid #000;
+  margin: 0 75px;
+  padding: 10px;
+  background: #F1E5AC;
+  }
 .addressdiv {
     display: flex;
     width: 100%;

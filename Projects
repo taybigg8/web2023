@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Three-Column Layout Example with CSS Grid</title>
+    <style>
+      /* Define the grid container and its columns */
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      
+      /* Add some styles to make the layout look nice */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      h1 {
+        text-align: center;
+        margin-top: 30px;
+      }
+      
+      p {
+        line-height: 1.5;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Projects our Team has Created</h1>
+    <div class="container">
+      <div class="column">
+        <h2>CognitION</h2>
+        <p>This project focuses on our voyage into the world of AI chat bots. Inspired by the increased interest in the development of AI and the popularity of ChatGPT,  CognitION is our own attempt at creating a sentient chatbot that can help with day to day activities and provide knowledge answers to whatever you question.  </p>
+      </div>
+      <div class="column">
+        <h2>Column 2</h2>
+        <p>Nulla et dui facilisis, pretium nibh at, luctus libero. Duis nec ultricies enim, sit amet iaculis nisi. Donec pulvinar consectetur tellus nec imperdiet. Nulla facilisi. Aenean vitae ante aliquam, tincidunt urna ac, laoreet enim.</p>
+      </div>
+      <div class="column">
+        <h2>Column 3</h2>
+        <p>Phasellus in leo justo. Ut ut quam orci. Etiam sodales turpis ut ex ullamcorper, vel feugiat sapien imperdiet. Ut a ligula at mauris pharetra tristique. Nam euismod, sapien ac dignissim vestibulum, mi leo tempor risus, in dictum orci est sit amet ex.</p>
+      </div>
+    </div>
+  </body>
+</html>
