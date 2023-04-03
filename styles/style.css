@@ -54,7 +54,7 @@ nav ul {
 
 nav ul li {
     background-color: #000;
-    color: #000;
+    color: #38bbf8;
     border: 1px solid #000000;
     padding: 1rem 1rem 1rem 1rem;
     font-weight: bold;
@@ -128,7 +128,7 @@ figure img {
   }
 
   .column:hover {
-    box-shadow: 3px;
+    box-shadow: 3px 3px 3px black;
     cursor: pointer;
 } 
 
