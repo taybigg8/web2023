@@ -68,6 +68,20 @@ nav ul li a {
     text-decoration: none;
 
 }
+.FAQlist ul{
+    list-style-type: none;
+
+}
+.FAQlist ul li{
+    background-color: #F1E5AC;
+    color: #000000;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    padding: 2rem 2rem 2rem 2rem;
+    font-weight: bold;
+    text-align:center;
+    
+}
 
 nav ul li a:hover {
     background-color: #000;
